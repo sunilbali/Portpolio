@@ -27,7 +27,7 @@
             width: 100%;
             position:fixed;
             padding-top: 25px;
-            /* z-index: 5; */
+            z-index: 5; 
         }  
         .childd{
             float: right;
