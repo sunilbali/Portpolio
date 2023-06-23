@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #h4{
+            background-color: red;
+            
+        }
+       
+        body{ 
+            font-family: 'Roboto', sans-serif;
+      
+        }
+        #name{
+            /* position: absolute; */
+            padding-top: 90px;
+        }
+        .parentt{
+            display: flex;
+            background-color: rgb(3, 189, 246);
+            background: linear-gradient(315deg,#d400d4,#00ccff,#305b7a,#d400d4);
+            color:black;
+            height: 50px;
+            display: inline-block;
+            width: 100%;
+            position:fixed;
+            padding-top: 25px;
+            /* z-index: 5; */
+        }  
+        .childd{
+            float: right;
+            /* box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+            border-radius:3px;
+            transition:.2s all;  */
+        }
+        /* .parentt:hover.childd{
+            filter:blur(3px);
+            opacity:.5;
+            transform: scale(.98);
+            box-shadow:none;
+
+        }
+        .parentt:hover.childd:hover{
+            transform:scale(1);
+            filter:blur(0px);
+            opacity:1;
+            box-shadow:0 8px 20px 0px rgba(0,0,0,0.125); */
+
+        /* } */
+        a{
+            text-decoration: none;
+            display: inline;
+            padding-right: 30px;
+            transition: 0.25s ease;
+        }
+        li{
+            display: inline;
+            padding-right: 25px;
+            color:black;
+            /* text-decoration:wavy; */
+            text-decoration-line: none;
+            
+            
+        }
+        #src{
+            
+           margin: 0px 100px 0px 100px;
+            /* padding: 140px 40px 0px 0px; */
+            display: inline;
+                padding-top: 100px;
+            position: relative;
+        }
+        
+        #div{
+            color: white;
+        }
+        .my{
+            float: right;
+            width:200px;
+            border-radius: 100px;
+            
+        }
+        .skills{
+            font-size:17px;
+            line-height: 21px;
+            word-spacing: 5px;
+        }
+        #social {
+            padding: 20px;
+            background-color: black;
+            color:white
+        }
+        #social a{
+            padding-top: 150px;
+
+        }
+        #kle{
+            padding-top: 50px;
+            padding-bottom: 25px;
+        }
+        body{
+            font-size: 20px;
+            line-height: 21px;
+            word-spacing: 1px;
+        }
+        body{
+            background-color: white;
+            transition: background-color 0.5s;
+        }
+        #name{
+            /* padding-top: 80px; */
+            padding-bottom: 50px;
+        }
+        #skills{
+            padding-bottom: 60px;
+        }
+        #project{
+            padding-bottom: 60px;
+            
+        }
+        #BCA{
+            padding-bottom: 50px;
+        }
+        #high{
+            padding-bottom: 50px;
+        }
+        #PUC{
+            padding-bottom: 50px;
+        }
+        #name{
+            /* display: inline; */
+            font-size: 35px;
+            padding-bottom: 55px;
+            padding-top: 150px;
+            font-family: 'Roboto', sans-serif;
+           
+            
+        }
+        #about{
+            /* display: inline; */
+            padding-bottom: 25px;
+            
+        }
+        #name:hover{
+            color: #00ccff;
+            
+        }
+        #skk{
+            padding-bottom: 35px;
+            font-size: 30px;
+        }
+        #pro{
+            padding-bottom: 35px;
+            font-size: 30px;
+        }
+        #edu{
+            padding-bottom: 45px;
+            font-size: 30px;
+        }
+        #soo{
+            background-color: black;
+            color: white;
+            font-size: 35px;
+        }
+        #coll{
+            /* transform: scale(1.15); */
+        }
+        body{
+           
+            background-color: #162052;
+            color: white;
+        }
+        .fu{
+            width: 200px;
+            border-radius: 50%;
+            margin: 90px 90px 0px 0px;
+           
+
+        }
+        .contentt{
+             float: right;
+
+
+        }
+        /* .src{
+            width: 100px;
+        } */
+        /* src{ */
+            /* display: flex; */
+            /* position: relative; */
+           /* height: 100px;
+           
+            background: rgba(0,0,0,0.5);
+            border-radius: 50%;
+            position:relative;
+            float: right;
+            margin: 105px 80px 0px 0px;
+            z-index: 1s5; */
+            /* overflow: hidden; */
+        
+        
+        /* #src{
+            overflow: hidden;
+        } */
+        /* #src::before{
+            content: '';
+            position:absolute;
+            inset:-10px 70px;
+            background: linear-gradient(315deg,#00ccff,#d400d4);
+            transition: 0.5s;
+            animation: animate 3s linear infinite;
+            
+        } */
+        /* #src:hover::before{
+            /* box-shadow: 10px 10px lightblue; */
+            /* inset: -30px 10px;
+        } */ */
+        /* @keyframes animate
+        {
+            0%
+            {
+                transform: rotate(0 deg);
+            }
+            50%
+            {
+                transform: rotate(180deg);
+            }
+            
+        } */
+         /* #src::after
+        {
+            content: '';
+            position: absolute;
+            inset: 6px; 
+            background: #162052;
+            border-radius: 50%; 
+            z-index: 0; 
+
+         } 
+         
+        /* {
+            position: absolute;
+            inset: 10px;
+            border: 6px solid #070a1c;
+            z-index: 3;
+            border-radius: 50%;
+            overflow: hidden;
+        } */
+        /* .contentt img{
+            position:absolute;
+            top: 0;
+            left: 0;
+             width: 50%;
+             height:50%; 
+            object-fit: cover;
+        }  */
+         
+        #coll{
+            float:right;
+            margin: 0px 380px 0px 0px;
+        }
+        #high1{
+            float: right;
+            margin: 0px 380px 0px 0px;
+            display: grid;
+            grid-auto-flow: column;
+           
+        }
+       
+        
+
+        
+
+        
+        #c1{
+            float: right;
+            margin: 0px 380px 0px 0px;
+        }
+        #c1::before{
+            transition: 0.2s;
+        }
